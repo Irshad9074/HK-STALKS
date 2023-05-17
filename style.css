@@ -1,0 +1,90 @@
+.top-bg{
+  background-image: url('images/bgHead.png');
+  background-repeat: no-repeat;
+  background-attachment:local;
+  background-size: 100% 100%;
+  height:100vh;
+}
+.topp-bg{
+  background-size: 100% 100%;
+  height:100vh;
+}
+.card-header{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background-color: bisque;
+}
+#right-align {
+    text-align: right;
+    padding: 10px;
+    font-size: 16px;
+}
+.second-div{
+    margin-top: 150px;
+}
+.heading {
+    font-size: 60px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff6b6b, #1e90ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .sub-heading{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(43, 42, 42);
+  }
+  .sub-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+  }
+  .card1{
+    /* background-image: url('./index-future.svg');
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size: 100% 100%; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    height: auto;
+  }
+  
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .courses-button{
+    width: 500px;
+    height: 500px;
+
+  }
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .courses-button{
+    width: 350px;
+    height: 350px;
+
+  }
+  .heading {
+    font-size: 40px;
+  }
+
+
+  }
